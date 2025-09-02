@@ -1,0 +1,29 @@
+int main() {
+    
+
+
+    char nom[50],prenom[50],email[50];
+    char sexe ;
+    int age;
+    printf("entrez votre nom \n");
+    scanf("%s",nom);
+    printf("enter votre prenom\n");
+    scanf("%s",prenom);
+    printf("enrtrez votre sexe\n");
+    scanf(" %c",&sexe);
+    printf("entrez votre email\n");
+    scanf("%s",email);
+    printf("entrez votre age\n");
+    scanf("%d",&age);
+
+    printf("nom is %s \n",nom);
+    printf("prenom is %s \n",prenom);
+    printf("sexe is %c \n",sexe);
+    printf("email is %s \n",email);
+    printf("age is %d \n",age);
+
+
+
+
+    return 0;
+}

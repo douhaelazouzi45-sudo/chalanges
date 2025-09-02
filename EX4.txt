@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float n1,n2,n3,moyenne;
+    printf("premier nemero2:");
+    scanf("%f",&n1);
+    printf("deusiem nemero3:");
+    scanf("%f",&n2);
+    printf("troisiem nemero5:");
+    scanf("%f",&n3);
+    moyenne =(n1+n2+n3)/3;
+    printf("la moyenne:%.2f\n",moyenne);
+    
+    
+    return 0;
+}

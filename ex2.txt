@@ -1,0 +1,12 @@
+e C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float celsius, kelvin;
+    printf("etrez la temperature en degrer celsius:");
+    scanf("%f",&celsius);
+    kelvin =celsius+273,15;
+    printf("la temperatur en kelvin est :%.2f\n",kelvin);
+
+    return 0;
+}
